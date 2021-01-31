@@ -1,59 +1,78 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
+
 const Header = props => (
+
+
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon fa-diamond"></span>
     </div>
-    <div className="content">
+    <div className="content" style = {{"background-color": "rgba(0, 0, 0,0)"}}>
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1> Ashlesha Kumar </h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
-        </p>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li>
+        <b>  AI/ML | DEEP LEARNING AND COMPUTER VISION | SOFTWARE DEVELOPMENT </b>
+
+          </p>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('about')
             }}
           >
-            Intro
+            About Me
           </button>
-        </li>
+          &nbsp;&nbsp;&nbsp;
+
+            <button
+              onClick={() => {
+                props.onOpenArticle('projects')
+              }}
+            >
+              <span>Projects </span>
+            </button>
+
+
+      </div>
+    </div>
+    <nav style = {{"background-color": "rgba(0, 0, 0,0)", "font-width":"bold"}}>
+      <ul>
         <li>
           <button
             onClick={() => {
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Work Experience
           </button>
         </li>
+
+
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('skills')
             }}
           >
-            About
+            Skills
           </button>
-        </li>
-        <li>
+          </li>
+          <li>
           <button
             onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Get in Touch
+          </button>
+
+        </li>
+        <li>
+
+          <button
+            onClick={() => window.open("https://drive.google.com/file/d/1AVSgb8bFl-xp97NZSSHpmgLDzac5wxIN/view?usp=sharing")   }      >
+            Resume
           </button>
         </li>
       </ul>

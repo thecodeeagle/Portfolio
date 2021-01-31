@@ -33,7 +33,7 @@
       'background-color #{_duration(bg)} ease-in-out'
     );
     @include vendor('transition-delay', '#{_duration(intro)}');
-    background-image: linear-gradient(
+  background-image: linear-gradient(
         to top,
         #{_palette(bg-overlay)},
         #{_palette(bg-overlay)}
@@ -54,7 +54,8 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('../../images/bg.jpg');
+    background-image: url('../../images/back.jpg');
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

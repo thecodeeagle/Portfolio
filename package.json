@@ -1,5 +1,4 @@
-{
-  "name": "Ashlesha Kumar | Personal WebPage",
+{  "name": "Personal WebPage",
   "description": "Ashlesha Kumar | Personal WebPage",
   "version": "1.0.0",
   "author": "Ashlesha Kumar",
@@ -12,7 +11,8 @@
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.2.0"
   },
   "keywords": [
     "gatsby"

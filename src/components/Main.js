@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
@@ -8,7 +9,6 @@ import defect from '../images/defect.jpeg'
 import Confusion from '../images/Confusion.png'
 import mask from '../images/mask.jpg'
 import DB2 from '../images/DB2.jpg'
-import skills from '../images/skills.jpg'
 import logos from '../images/logos.jpg'
 
 class Main extends React.Component {
@@ -51,11 +51,11 @@ class Main extends React.Component {
             <br/> <br/>
             Technologies I enjoy the most working with include:
             <b> Python, C/C++, Keras, Tensorflow and PyTorch. </b>
-            You can find more about my skills *here*.
+
             <br/> <br/>
             I am always open to collaborations with impactful work. Feel free to reach out if you want to work together :)
-
             </p>
+
           {close}
         </article>
 
@@ -78,7 +78,7 @@ class Main extends React.Component {
             <li> Tested the approach on two popular driver distraction datasets, the AUC Distracted Driver Dataset, achieving an accuracy of 96.498%(~0.5% gain above state-of-art)
             and the State Farm Driver Distraction Dataset, attaining an accuracy of 99.75%.</li>
             <li> Tech Stack Used : Python, Keras and PyTorch </li>
-            <li> Check out the project *here*. </li>
+            <li> Check out the project <a href= "https://github.com/thecodeeagle/Genetic-Algorithm-Based-Ensemble-for-Driver-Distraction-Recognition"> here </a>. </li>
             <br/>
             </ul>
             <b><li>Institute of Genomics and Integrative Biology (CSIR–IGIB), New Delhi, India </li></b>
@@ -90,7 +90,7 @@ class Main extends React.Component {
             <li> Created two weighting schemes to accurately predict the risk score based on user information entered </li>
             <li> Integrated string.db API's to capture interactions between genes for their influence on the risk factor </li>
             <li> Tech Stack Used : Python, R, Kivy </li>
-            <li> Check out the project *here* </li>
+            <li> Check out the project <a href= "https://github.com/thecodeeagle/Diabetic-Retinopathy-Risk-Prediction"> here </a> </li>
             </ul>
             </ol>
             </p>
@@ -188,16 +188,16 @@ class Main extends React.Component {
 
          <h3> Programming</h3>
          <ul>
-         <li> <b>Languages : </b> Proficient: Python, C/C++; Familiarity: Java, R </li>
+         <li> <b>Languages : </b> Proficient:  Python, C, C++; Intermediate:  HTML, Java, R </li>
          <li> <b>Frameworks :</b>
          <ul>
-           <li> Python-Based : Keras, Tensorflow, Numpy, Scikit-Learn </li>
+           <li> Python-Based : Keras, Tensorflow, Numpy, Scikit-Learn, OpenCV </li>
            <li> Web : Django, Flask, Bootstrap </li>
          </ul>
          </li>
          <li><b> Platforms:</b> Jupyter, Google Colab </li>
          <li><b>Version Control Systems :</b> Git and GitHub </li>
-         <li><b>Database Management Systems : </b>PostgreSQL </li>
+         <li><b>Database Management Systems : </b> MySQL, PostgreSQL </li>
          </ul>
          </p>
           {close}
